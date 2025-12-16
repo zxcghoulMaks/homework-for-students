@@ -1,0 +1,11 @@
+/*
+    Множення чисел на 2:
+    Дано масив чисел [1, 2, 3, 4, 5]. 
+    Помножити всі елементи на 2.
+    Приклад [1, 2, 3, 4, 5] → [2, 4, 6, 8, 10].
+*/
+
+const numbers = [1, 2, 3, 4, 5];
+const doubledNumbers = numbers.map(num => num * 2);
+
+console.log(doubledNumbers);
